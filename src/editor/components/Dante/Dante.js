@@ -12,6 +12,7 @@ import {ImageBlockConfig} from '../blocks/image.js'
 import {EmbedBlockConfig} from '../blocks/embed.js'
 import {VideoBlockConfig} from '../blocks/video.js'
 import {PlaceholderBlockConfig} from '../blocks/placeholder.js'
+import {DividerBlockConfig} from '../blocks/divider.js'
 import {CodeBlockConfig} from '../blocks/code.js'
 import Link from '../decorators/link'
 import {PrismDraftDecorator} from '../decorators/prism'
@@ -189,6 +190,7 @@ Dante.defaultProps = {
     EmbedBlockConfig(),
     VideoBlockConfig(),
     PlaceholderBlockConfig(),
+    DividerBlockConfig(),
     //CodeBlockConfig()
   ]
 
